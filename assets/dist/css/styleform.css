@@ -1,0 +1,79 @@
+a:hover{
+    text-decoration: none;
+    
+}
+.form-control:focus{
+    color: #495057;
+    background-color: #fff;
+
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0rem rgba(0,123,255,.25);
+}
+.btn-secondary:focus{
+    box-shadow: 0 0 0 0rem rgba(108,117,125,.5);
+}
+.close:focus{
+    box-shadow: 0 0 0 0rem rgba(108,117,125,.5);
+}
+.mt-200{
+    margin-top:200px;
+}
+#smartwizard ul li{
+    list-style-type: none;
+    display: inline-table;
+}
+ul li a{
+    color:white;
+    text-decoration: none;
+}
+.init{
+    display: none;
+}
+#step-1 h1{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 5%;
+}
+#step-2 h1{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 5%;
+}
+
+.row div input{
+    margin-bottom: 4%;
+}
+.row{
+    margin-bottom:1%;
+}
+.contr{
+    margin-left:70%;
+}
+.modal-title h1{
+    margin-left: 12%;
+    text-align: center;
+    color: #80bdff;
+}
+.contr li button{
+    
+    border: 0px solid transparent;
+    background-color: transparent;
+    font-size: 20px;
+    color:rgb(95, 19, 6);
+    padding: 7px 17px 7px 17px;
+    border-radius: 10px 10px 10px 10px;
+}
+.contr li button:hover{
+    background-color: #80bdff;
+    text-decoration: none;
+
+}
+.contr li{
+    margin-right: 5%;
+}
+#val{
+    margin-top: 2%;
+    margin-left: 2%;
+    padding:1% 3% 1% 3%;
+}

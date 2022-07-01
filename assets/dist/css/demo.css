@@ -1,0 +1,36 @@
+.logo-container{
+    left: 50px;
+    position: absolute;
+    top: 20px;
+     z-index: 3;
+}
+.logo-container .logo{
+    overflow: hidden;
+    border-radius: 50%;
+    border: 1px solid #333333;
+    width: 60px;
+    float: left;
+    padding-right: 5px;
+}
+.logo-container .brand{
+    text-align: center;
+    font-size: 18px;
+    color: rgba(5,174,14);
+    line-height: 20px;
+    float: left;
+    margin-left: 10px;
+ 
+    width: 60px
+}
+.fixed-header {
+    position: fixed;
+    z-index:1000;
+    top: -6px;
+    left: 0;
+    width: 100%; 
+  }
+  .visible-title {
+      visibility: visible;
+      background-color: #00004d;
+      
+  } 
